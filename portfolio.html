@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>My Portfolio</title>
+</head>
+
+<body style="background-color: cadetblue;">
+    <!--Navigation bar-->
+    <div class="container">
+        <div class="fixed-top">
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="bg-dark p-3">
+                    <h5 class="text-white h4">Navigate</h5>
+                    <ul>
+                        <li class="nav-itme">
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li class="nav-itme">
+                            <a href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-itme">
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="navbar navbar-light bg-light">
+<!--Name insertion into nav bar-->
+                <div class="text-right"><strong>Alex Thompson</strong></div>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+            </nav>
+        </div>
+        <H1>Portfolio</H1>
+<!--Portfolio images-->
+        <div><img src="https://www.gocloudwave.com/wp-content/uploads/2019/04/logo-full.png" alt="Cloudwave company logo" class="img-thumbnail"></div>
+
+        <div><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJcAAABUCAMAAAC4PVVRAAAAolBMVEX///9iALBUWFtRVVhXAKzJuOJcAK6Wb8hJTVFBRkn09PROUlVGS05FSU13enzf3+CQkpT7+f2GiIq1trdcX2Lu7u7Q0NGoqavk5eW7vL06P0PDxMViZWiAgoSojdCusLGZmpxucXN6R7vs5vXz7vno3/NGAKakhs6AUb0tMziFW79jGbGff8xuMrWbdsrf1e2NZsNpJrPSxOZ0PLi/qtyxm9Rd2YkmAAAEOElEQVRoge2YbXfaOBCFFcmhsl5s4xfZYDvgNJB2k5Qk7f7/v7ZXAgrGzml3Dwu75+h+6MEeWfN45moIJcTLy8vLy8vLy8vLy8vLy+tv63aoh2szQat1MNC1maweJzcnmtxdmwmaDrBugs/XhoJug0G5vlybyerLoF7B7bWZoNWgXDeTazNZncv1hTHmjFhjrl/9k41mc/1VnI/rbK6fKRqekeuPc7n+vFyfz+b683LdDV3/OLpQlFGUmiLLFoJkWWZE2UbLwoUqhJK43nHFSddE5TZCTBLhc51ltcFDDnv7QdRJ25YVrqcz7IY9kuIo2/TpN11vmGJM6k6rrzHhWnc5Z4zzGKGZxEfJO+a4lloyxhR1ZzOxFyqnKozMXM1nNmOjw47ETSiZVLzEC0s9LzOl3F57jbj+fgyrChmVGntROo8JpRSMCv/mINaUcqVtCFxlSKVsLHNlGSlTSiPCItIx1hG3XJuKM/sMo3pJRI6opIxWR/l+1/WtpGpZxSnfc8munuXMXjRIUVYxtgZXIalsK2GwICEVsuV1VWMduOA/hZKkkjUCi+WiMp2kOgYXRVFZc9THMddPt6GH3l9gc5sHitiOi6NlhlNdV5zabhDLF4pMUW6KqijxAu7CNid2XMjPlwTgfFFpqmxPRcOwreXK6+L4zIy4/tneXz3fv7zcf9sc2khDZxiY23Gx1G7Lsb2B3d2bLjgNSSJtU5VCV+cika5z9m3ARZac5gSssqhDmjuMpV0BLnnsLXjwbdT10+dgAuDJJPi0K14MLveo2XHJJS4KcNVmPx5me658K12AKzriim15IyZTUusdVwku56++a96Hrv8OrPuft4OX6c8+umYhb59r5rLtWhyKBQ5DJQpRVAJngKM2dh3dZsYK1EYb+5rclb+zlPnOCAeNu/71iHb/nYQhoGshMk1PuQhOEjWiQJfAFStrIvA3aUZiTWVUicqeNsuFMoGwc75iOZ5JUOJaDLjGXb9Z90Df3VIzx4tiDtEh1yykVOUMWLahSMW7FoNijlwtCsZzLnf1Ag52ySxhSJnOJda2ZMg17vrX3t39OFuEblzmUoJLSmVPZ6FliGO1PIRgmkhjyDIW2gWiwzBmEkOBOweVIT47Y2Wc24iOMPkxGHtcY67HCTwp4nq32rRN3pSmTaOKpGm7sGnbtLU2MVGTdzOEWpsz63Dsu3qbYtHleWTKNLX1JUWapjuEatnlTWtXiSRtZ792/cO6f+/wtSQ+/lbuhzC/Pgr1HpqO338duv7HCNdm/Ol/TR/M+ukJ1/rSv7zvhm38Zu9/75fx0r9Bpi+Dcm1b9qPHG/x5Ya4R179sI2/HBbv4T7Zx11utgkPo8q5fT04V7B2+edrVMni6NBa5ff10oteDk6Z3b5MgCN4e/wv/C9bTdHP7vvlg7nl5eXl5eXl5eXl5eXl5/a/0F6d7S2+CQ3n2AAAAAElFTkSuQmCC" alt="old Andeavor company logo" class="img-thumbnail"></div>
+
+        <div><img src="data:image/png;base64,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" alt="Marathon petrol logo" class="img-thumbnail"></div>
+
+        <div><img src="data:image/png;base64,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" alt="Ranstad logo" class="img-thumbnail"></div>
+
+        <div><img src="https://homespirewindows.com/wp-content/uploads/2018/02/Homespire-WD-Final-Logo-Updated-2018-1.png" alt="Homespire windows logo" class="img-thumbnail"></div>
+        <!-- Optional JavaScript; choose one of the two! -->
+
+        <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
+
+        <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
